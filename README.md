@@ -1,6 +1,6 @@
 # Blackjack Game in Python
 ## Introduction
-This project implements a simple Blackjack game in Python, also known as "21". The program simulates a basic card game where the player competes against the dealer. The goal is to reach a total card value of 21 or to get closer to it than the dealer, without exceeding 21.
+This project implements a simple Blackjack game in Python. The program is a normal Blackjack game where the player competes against the dealer. The goal is to reach a total card value of 21 or to get closer to it than the dealer, without exceeding 21.
 
 ## How the Game Works
    - The player is dealt two random cards at the start of the game.
