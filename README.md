@@ -1,4 +1,29 @@
-# Black Jack Project
+# Blackjack Game in Python
+## Introduction
+This project implements a simple Blackjack game in Python, also known as "21". The program simulates a basic card game where the player competes against the dealer. The goal is to reach a total card value of 21 or to get closer to it than the dealer, without exceeding 21.
+
+## How the Game Works
+   - The player is dealt two random cards at the start of the game.
+   - The dealer is also dealt two cards, one of which is hidden until the player finishes their turn.
+   - The player can choose to:
+      - Hit: Draw another card.
+      - Stand: End their turn and let the dealer play.
+   - The dealer will follow a simple rule to draw cards until their total is at least 17.
+   - If the player's or dealer's total exceeds 21, they "bust" (lose the round).
+## Rules of Blackjack
+1. Card Values:
+   - Number cards (2-10) are worth their face value.
+   - Face cards (Jack, Queen, King) are worth 10 points.
+   - Aces can be worth either 1 or 11 points, whichever is more beneficial to the hand.
+2. Winning Conditions:
+   - A total of 21 points is a "Blackjack" and usually wins the round.
+   - If neither the player nor the dealer gets a Blackjack, the closest to 21 wins.
+   - If both the player and dealer have the same total, it's a tie (push).
+
+
+
+
+## vosk
 
 This project uses the Vosk speech recognition library to process audio input. Before running the project, you need to download a small Vosk model and update the path in the `voice1.py` file.
 
