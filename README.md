@@ -82,7 +82,7 @@ The specific model used is yolov8m.pt, which has been trained to recognize vario
    - Detected cards are assigned their corresponding Blackjack values. For example:
       - 2c, 2d, 2h, 2s: 2 points.
       - Jc, Qh, Ks: 10 points.
-      - Ac, Ah: 1 point.
+      - Ac, Ah: 1/11 point.
 
 3. Visualization:
 
